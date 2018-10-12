@@ -1,0 +1,95 @@
+@font-face
+{
+    font-family:main;
+    src:url("../../typograph/main.ttf");
+}
+
+body
+{
+    font-family:main;
+    background-image:url("../../media/images/bg-home.png");
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+}
+
+.navbar-default
+{
+    background-color:rgba(255,255,255,0.9);
+    box-shadow:0px 0px 10px #aaa;
+    border-radius:0px;
+    border:none;
+    padding:1.5em;
+}
+
+.col-md-12 > h1
+{
+    font-weight:bold;
+    color:#fff;
+}
+
+.home-btn
+{
+    float:left;
+    box-sizing:border-box;
+    width:20em;
+    padding:15px;
+    background-color:#fff;
+    color:#000;
+    text-align:center;
+    font-weight:bold;
+    margin-top:1em;
+    position:relative;
+    transition:ease-in-out .3s;
+    left:0em;
+}
+
+.home-btn:hover
+{
+    background-color:orange;
+    color:#fff;
+    text-decoration:none;
+    box-shadow:0px 0px 10px #ddd;
+    transform:scale(1.1);
+    left:2em;
+    width:22em;
+}
+
+.form-group > input
+{
+    width:100%;
+    float:left;
+    padding:10px;
+    border-radius:0px;
+    border:none;
+    box-shadow: 0px 0px 10px #333;
+}
+
+.form-group > label
+{
+    color:#fff;
+    width:100%;
+    text-align:right;
+    text-shadow:0px 0px 10px #333;
+}
+
+.form-group
+{
+    margin-bottom:1em;
+    float:left;
+    width:100%;
+}
+.table-list
+{
+    color: #fff;
+    background-color: #265a88;
+    border: 1px solid #fff;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background: black;
+}
+
+.table td, .table th{
+    border: 1px solid #fff;
+}
