@@ -1,4 +1,5 @@
 <?php
+session_start();
 include 'config.php';
 ?>
 <!DOCTYPE Html>
@@ -28,8 +29,8 @@ include 'config.php';
                 <th>Pengarang</th>
                 <th>Judul</th>
                 <th>Ringkasan</th>
-                <th>Nilai Satuan</th>
-                <th>Nilai Barang</th>
+                 <th>Nilai Perolehan</th>
+                <th>Jumlah Barang</th>
                 <th>Ruangan</th>
                 <th>Posisi Barang</th>
                 <th>Kondisi</th>
@@ -46,8 +47,8 @@ include 'config.php';
                 <td><?= $row['pengarang'] ?></td>
                 <td><?= $row['judul'] ?></td>
                 <td><?= $row['ringkasan'] ?></td>
-                <td><?= $row['nilai_satuan'] ?></td>
-                <td><?= $row['nilai_barang'] ?></td>
+                <td><?= $row['nilai_perolehan'] ?></td>
+                <td><?= $row['jumlah_barang'] ?></td>
                 <td><?= $row['ruangan'] ?></td>
                 <td><?= $row['posisi_barang'] ?></td>
                 <td><?= $row['kondisi'] ?></td>
